@@ -163,7 +163,7 @@ class ApiKeyCookie implements ApiKeyFactory
      * @param array $params
      * @return bool|string
      */
-    private function curlExec(array $data, array $params): bool|string
+    private function curlExec(array $data, array $params)
     {
         $ch = curl_init($this->baseURL . '?' . http_build_query($params));
         curl_setopt($ch, CURLOPT_POST, true);

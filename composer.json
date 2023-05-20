@@ -19,5 +19,6 @@
         "psr-4": {
             "Khaledalam\\BardSdkPhp\\": "src/"
         }
-    }
+    },
+    "license": "MIT"
 }

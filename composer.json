@@ -12,7 +12,8 @@
         "issues": "https://github.com/khaledalam/bard-sdk-php/issues"
     },
     "require": {
-      "ext-curl": "*"
+        "php": ">=7.4",
+        "ext-curl": "*"
     },
     "autoload": {
         "psr-4": {

@@ -8,7 +8,7 @@ Reverse engineering of Google's Bard chatbot.
 
 
 ## Install
-> $ composer requires "khaledalam/bard-sdk-php"
+> $ composer require khaledalam/bard-sdk-php
 
 ## Auth
 1. Navigate to https://bard.google.com/

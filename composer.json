@@ -1,0 +1,22 @@
+{
+    "name": "khaledalam/bard-sdk-php",
+    "description": "Google Bard SDK for PHP (unofficial).",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Khaled Alam",
+            "email": "khaledalam.net@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/khaledalam/bard-sdk-php/issues"
+    },
+    "require": {
+      "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Khaledalam\\BardSdkPhp\\": "src/"
+        }
+    }
+}

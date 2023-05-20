@@ -1,0 +1,13 @@
+{
+    "name": "khaledalam/bard-sdk-php-example_world_datetime_ai",
+    "description": "An example of khaledalam/bard-sdk-php package",
+    "authors": [
+        {
+            "name": "Khaled Alam",
+            "email": "khaledalam.net@gmail.com"
+        }
+    ],
+    "require": {
+      "khaledalam/bard-sdk-php": "*"
+    }
+}

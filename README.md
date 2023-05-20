@@ -1,5 +1,13 @@
 # <img src="https://1000logos.net/wp-content/uploads/2023/05/Bard-AI-Logo.png" height="25px"></a> PHP SDK/API for Google Bard (experiment version) (unofficial)
 
+[![Downloads](https://poser.pugx.org/khaledalam/bard-sdk-php/d/total.svg)](https://packagist.org/packages/khaledalam/bard-sdk-php)
+[![Latest Stable Version](https://poser.pugx.org/khaledalam/bard-sdk-php/version.svg)](https://packagist.org/packages/khaledalam/bard-sdk-php)
+[![PHP Version Require](http://poser.pugx.org/khaledalam/bard-sdk-php/require/php)](https://packagist.org/packages/khaledalam/bard-sdk-php)
+[![License](https://poser.pugx.org/khaledalam/bard-sdk-php/license.svg)](https://packagist.org/packages/khaledalam/bard-sdk-php)
+[![composer.lock available](https://poser.pugx.org/khaledalam/bard-sdk-php/composerlock)](https://packagist.org/packages/khaledalam/bard-sdk-php)
+
+
+
 Reverse engineering of Google's Bard chatbot.
 
 ## Disclamer
@@ -70,9 +78,11 @@ Example1(<a href="./examples/world_datetime_ai">world_datatime_ai</a>):
 
 <img src="./diagram.png">
 
-### Methods:
+### TODOs:
 - [x] Cookie
 - [ ] Api key
+- [ ] codecov
+- [ ] Testing
 
 ### License
 - [MIT](https://opensource.org/license/mit/)

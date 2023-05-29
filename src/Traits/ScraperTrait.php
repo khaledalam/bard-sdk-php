@@ -21,6 +21,7 @@ trait ScraperTrait
         curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
         curl_setopt($ch, CURLOPT_COOKIE, $this->getApiKeyName() . '=' . $this->getApiKeyValue());
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
         $response = curl_exec($ch);
         curl_close($ch);
 

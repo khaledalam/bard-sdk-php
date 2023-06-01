@@ -3,7 +3,7 @@ name: CI
 on: [push]
 
 jobs:
-  build-test:
+  build-phpunit-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -11,9 +11,12 @@ jobs:
 
       - uses: php-actions/composer@v6
 
-      - name: PHPUnit Tests
-        uses: php-actions/phpunit@master
+      - name: PHPUnit Run Tests and Coverage
+        uses: php-actions/phpunit@v3
         with:
+          php_extensions: xdebug
           bootstrap: vendor/autoload.php
-          configuration: tests/phpunit.xml
-        run: ./vendor/bin/phpunit tests
+          configuration: test/phpunit.xml
+          args: --coverage-text
+        env:
+          XDEBUG_MODE: coverage

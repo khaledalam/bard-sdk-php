@@ -17,7 +17,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Khaledalam\\BardSdkPhp\\": "src/"
+            "Khaledalam\\BardSdkPhp\\": "src/",
+            "Khaledalam\\BardSdkPhp\\Test\\": "test"
         }
     },
     "license": "MIT",

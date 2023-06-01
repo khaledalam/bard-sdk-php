@@ -16,4 +16,4 @@ jobs:
         with:
           bootstrap: vendor/autoload.php
           configuration: tests/phpunit.xml
-          args: --coverage-text
+        run: ./vendor/bin/phpunit tests

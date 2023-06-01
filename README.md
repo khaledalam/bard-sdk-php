@@ -5,6 +5,7 @@
 [![PHP Version Require](http://poser.pugx.org/khaledalam/bard-sdk-php/require/php)](https://packagist.org/packages/khaledalam/bard-sdk-php)
 [![License](https://poser.pugx.org/khaledalam/bard-sdk-php/license.svg)](https://packagist.org/packages/khaledalam/bard-sdk-php)
 [![composer.lock available](https://poser.pugx.org/khaledalam/bard-sdk-php/composerlock)](https://packagist.org/packages/khaledalam/bard-sdk-php)
+https://github.com/khaledalam/bard-sdk-php/actions/workflows/ci.yaml/badge.svg
 
 
 

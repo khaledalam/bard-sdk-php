@@ -86,6 +86,7 @@ Example1(<a href="./examples/world_datetime_ai">world_datatime_ai</a>):
 - [ ] Api key
 - [ ] codecov
 - [x] Testing
+- [x] CI GitHub actions
 
 ### License
 - [MIT](https://opensource.org/license/mit/)

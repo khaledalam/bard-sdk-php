@@ -58,7 +58,7 @@ class ApiKeyCookie implements ApiKeyFactory
 
         if ($retDic === null)
         {
-            die("Error");
+            throw new RuntimeException('Fail to get response.');
         }
 
         $retDecodedAnswer = json_decode($retDic, false, 512, JSON_THROW_ON_ERROR);

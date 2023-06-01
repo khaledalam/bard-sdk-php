@@ -18,6 +18,9 @@ Reverse engineering of Google's Bard chatbot.
 ## Install
 > $ composer require khaledalam/bard-sdk-php
 
+## Test
+> $ composer run test
+
 ## Auth
 1. Navigate to https://bard.google.com/
 2. Open "Developer Tools" from browser settings or click [F12] shortcut for console.
@@ -82,7 +85,7 @@ Example1(<a href="./examples/world_datetime_ai">world_datatime_ai</a>):
 - [x] Cookie
 - [ ] Api key
 - [ ] codecov
-- [ ] Testing
+- [x] Testing
 
 ### License
 - [MIT](https://opensource.org/license/mit/)
